@@ -1,34 +1,19 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
 
-
-
 *{
 
     box-sizing: border-box;
-
     /*font-family: 'Roboto', sans-serif;*/
-
     font-family: 'Poppins', Arial, sans-serif;
 
-    
-
 }
-
-
 
 main{
-
     /*margin: 20px;*/
-
     margin: none;
-
     width: auto;  
 
-    
-
 }
-
-
 
 body{
 
@@ -36,43 +21,23 @@ body{
 
     margin: auto;
 
-    
-
-    
-
 }
-
-
-
- 
 
 #oculta a{
 
-    
-
     text-decoration: none;
-
     color: white;
-
-    
-
 }
-
-
 
 
 
 .header2{
-
     display: none;
-
 }
 
 
 
 header {
-
-    
 
     background-color: #045CAC;
 
@@ -83,8 +48,6 @@ header {
     justify-content: space-around;
 
     align-items: center;
-
-    
 
 }
 
