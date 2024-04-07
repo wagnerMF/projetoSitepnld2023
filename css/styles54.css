@@ -1,0 +1,1623 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+
+
+
+*{
+
+    box-sizing: border-box;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Poppins', Arial, sans-serif;
+
+    
+
+}
+
+
+
+main{
+
+    /*margin: 20px;*/
+
+    margin: none;
+
+    width: auto;  
+
+    
+
+}
+
+
+
+body{
+
+    /*margin: 20px;*/
+
+    margin: auto;
+
+    
+
+    
+
+}
+
+
+
+ 
+
+#oculta a{
+
+    
+
+    text-decoration: none;
+
+    color: white;
+
+    
+
+}
+
+
+
+
+
+.header2{
+
+    display: none;
+
+}
+
+
+
+header {
+
+    
+
+    background-color: #045CAC;
+
+    padding: 10px 0px 10px 30px;     
+
+    text-decoration-color: #045CAC;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    
+
+}
+
+
+
+header .container div{
+
+    display:flex;
+
+    justify-content: space-between;
+
+    align-items: center;   
+
+    font-size: 24px;
+
+    padding: 0px 30px 0px 0px;
+
+    margin-left: auto;
+
+    
+
+}
+
+ 
+
+ 
+
+
+
+.logo{  
+
+  
+
+    padding-left: 80px;
+
+    align-items: center;  
+
+    height: 70px;
+
+    padding: 15px 0px 5px 10px;  
+
+      
+
+    
+
+}
+
+
+
+.logo2{   
+
+  
+
+    align-items: center;  
+
+    
+
+    width: 40px;
+
+    height: 23px;
+
+  
+
+}
+
+
+
+.logo3{   
+
+    display: none;
+
+    padding: 0px 0px 0px 0px;
+
+}
+
+ 
+
+.blocochamadadebloco { 
+
+     
+
+    width: 100%;
+
+    height: 40px;
+
+    border-color: black;
+
+    display: flex;
+
+    display: inline-flex;
+
+    background-color: #afd4f7; 
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;  
+
+    flex-direction: column;    
+
+
+
+}
+
+
+
+.blocochamadadebloco div{ 
+
+    font-size: 30px;
+
+     color: black;
+     
+
+}
+
+
+
+.tituloprincipal{
+
+    font-size: 2rem; 
+
+    width: 100%;    
+
+    padding: 2px;      
+
+    display: inline-flex;
+
+    flex-direction: column;    
+
+    text-align: center;     
+
+}
+
+
+
+
+
+.meiosessao{
+
+    padding: 1%;
+
+  }
+
+  
+
+
+
+.subtitulo{    
+
+width: 100%;    
+
+padding: 2px;      
+
+display: inline-flex;
+
+flex-direction: column;    
+
+text-align: center;  
+
+}
+
+
+.chamada{
+
+    font-family: 'Arial Narrow', Arial, sans-serif;
+
+    display: flex;    
+
+    font-size: 22px;
+
+    flex-wrap: nowrap 
+
+}
+
+
+.blocodolivro01{
+   /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;   
+   align-items: center;
+   justify-content: center;
+   height: 40rem;
+   width: 100%;
+   position: relative;
+     
+}
+
+.blocodolivro01::before {
+    
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f01.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+
+  }
+
+
+.blocodolivro01 p {
+    text-align: justify;  
+}
+ 
+
+
+.blocodolivro02{
+   /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro02::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f02.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro02 p {
+    text-align: justify;
+}
+
+
+.blocodolivro03{
+  /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro03::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f03.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro03 p {
+    text-align: justify;
+}
+
+
+
+
+.blocodolivro04{
+/* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro04::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f04.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro04 p {
+    text-align: justify;
+}
+
+
+
+.blocodolivro05{
+   /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro05::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f05.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro05 p {
+    text-align: justify;
+}
+
+
+
+.blocodolivro06{
+   /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro06::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f06.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro06 p {
+    text-align: justify;
+}
+
+
+
+.blocodolivro07{
+   /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro07::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f07.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro07 p {
+    text-align: justify;
+}
+
+
+
+.blocodolivro08{
+   /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+ 
+.blocodolivro08::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f08.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+  .blocodolivro08 p {
+    text-align: justify;
+}
+
+
+.blocodolivro09{
+   /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro09::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f09.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro09 p {
+    text-align: justify;
+}
+
+
+.blocodolivro10{
+   /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro10::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f10.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro10 p {
+    text-align: justify;
+}
+
+
+.blocodolivro11{
+  /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 32rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro11::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f11.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro11 p {
+    text-align: justify;
+}
+
+
+.blocodolivro12{
+ /* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 32rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro12::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f12.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro12 p {
+    text-align: justify;
+}
+
+
+.blocodolivro13{
+/* width: 100%;    
+   background-size: cover; 
+   display: inline-flex;
+   justify-content: center;      
+   background-position: 0dvh;
+   padding: 40px;
+   justify-content: center;     */
+   /* background-image: url(../img/capas/fundo/---f01.jpg);   */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 40rem;
+   width: 100%;
+   position: relative;
+}
+
+.blocodolivro13::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(../img/capas/fundo/f13.jpg); 
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.2;
+  }
+
+.blocodolivro13 p {
+    text-align: justify;
+}
+
+
+
+
+.newletterpnld{
+    display: flex; 
+    flex-direction: column;     
+    /* display: inline-flex; */
+    align-items: center;
+    background-color: aliceblue;
+    /* width: auto; */
+    /* margin: 20px; */
+    padding: 20px 30px 20px 30px;      
+    /* text-align: center;    */
+    
+}
+
+
+
+.subconteudo img{
+
+   /* width: 280;    
+
+    height:360px;  */
+
+    
+
+    width: 250;    
+
+    height:334px; 
+
+       
+
+    background-image: url(../foto_cabecalho2.jpg);        
+
+    background-repeat: no-repeat;
+    
+
+}
+
+
+
+.subconteudo2{       
+
+   width: 60%;    
+
+   padding: 0px 0px 2px 15px;
+   
+}
+
+
+
+.titulodolivro{
+
+    font-weight: bold; 
+
+    font-size: 18px;
+
+    padding: 0px 0px 10px 0px;
+
+}
+
+
+
+.codigonumeroobra{
+
+    display: inline-flex;    
+
+    flex-direction: row;            
+
+    padding: 5px 5px 5px 0px;
+
+    margin: 5px 5px 5px 0px;
+
+}
+
+
+
+.codigonumeroobra div{
+
+    padding: 1px 5px 0px 0px;
+
+    
+
+}
+
+
+
+.espaco{    
+
+    margin: 0px 0px 10px 0px;
+
+    justify-content: right;
+
+}
+
+
+
+
+
+
+
+
+
+.codigoobra{
+
+    font-weight: bold; 
+
+    font-size: 18px;
+
+}
+
+
+
+.numeroobra{
+
+    font-size: 18px;
+
+}
+
+
+
+.textosocial{
+
+    padding: 10px 0px 5px 0px;
+
+    font-size: 16px;
+
+}
+
+
+
+.textosocial img{
+
+    width: 25px;
+
+    height: 25px; 
+
+}
+
+
+
+.redesociais{
+
+    display: flex;
+
+    display: inline-flex;
+
+    text-align: center;
+
+    
+
+}
+
+
+
+
+
+.redesociais img{
+
+           
+
+    width: 25px;
+
+    height: 25px; 
+
+    border-radius: 15px;
+
+    display: flex;
+
+    flex-direction: row;   
+
+}
+
+
+
+.chamazapcentral{    
+
+    
+
+    width: 100%;
+
+    
+
+    color: white;
+
+    display: flex;
+
+    display: inline-flex;
+
+    background-color:rgb(35, 130, 93);  
+
+    justify-content: center;
+
+    align-items: center; 
+
+    
+
+    flex-direction: column;  
+
+    padding:  0px;
+
+}
+
+
+.chamazapcentral div{    
+
+    color: white;
+
+    display: flex;
+
+    display: inline-flex;
+
+    background-color:rgb(35, 130, 93);  
+
+    justify-content: center;
+
+    text-align: center; 
+
+   width: auto;   
+
+}
+
+
+.chamazap{        
+
+    display: flex;         
+
+    justify-content: center;
+
+    text-align: center;
+
+    color: white; 
+
+    width: 20%;   
+
+    
+
+    background-color:rgb(17, 189, 120);     
+
+}
+
+
+
+section .chamazap div{                    
+
+    color: white;   
+
+    width: 30%;           
+
+}
+
+
+
+section .textozap1{
+
+    
+
+    border-radius:35px 35px 35px 35px;
+
+    background-color:rgb(17, 189, 120);     
+
+    color: white;
+
+ 
+
+    padding: 0px 10px 15px 20px;
+
+    text-decoration: none;
+
+    margin: 15px;
+
+}
+
+
+
+.botoasubtitulo{
+
+    padding: 10px 0px 0px 0px;
+
+    text-decoration: none;            
+
+
+
+}
+
+
+
+.botoasubtitulo div {
+
+    display: block;
+
+    display: inline-flex;    
+
+    flex-direction: column;            
+
+    padding: 10px 10px 10px 0px;
+
+    margin: 0px 1px 0px 0px;
+
+    justify-content: space-between;
+
+    width:30%;
+}
+
+
+
+.botoasubtitulo button{
+ 
+    border-radius:5px 5px 5px 5px;
+
+    background-color:rgb(35, 148, 185);     
+
+    color: rgb(255, 255, 255);
+
+    border-color: rgb(35, 148, 185);    
+
+    text-decoration: none;
+
+    font-size: 14px;
+
+    height: 40px;
+
+}
+
+
+
+.botoasubtitulo div button a{
+
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+
+}
+
+
+footer{
+ 
+    display: inline-flex;
+
+    display: flex;
+
+    flex-direction: row;        
+
+    justify-content: center;
+
+}
+
+
+/*chamazap*/ 
+.itenfooter{   
+   
+    margin: 15px;  
+}
+
+
+
+
+
+
+
+
+
+/*sessao de responsividade para dispositivos moveis*/
+
+    @media only screen and (max-width: 1080px) {
+       
+        header .container div {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            font-weight: bold;
+
+            font-size: 18px;
+
+            padding: 0px 9px 0px 15px;
+
+            margin-left: auto;
+
+        }
+
+ 
+
+        .header1{
+
+            display: none;
+
+        }
+
+
+
+        .header2{
+
+            display: flex;
+
+            justify-content: center;
+
+            padding: 5px 0px 5px 20px;  
+
+        }
+
+
+
+        .header2 div{
+
+            display: flex;
+
+            display: inline-flexbox;
+
+            flex-direction: row;        
+
+            justify-content: center;
+
+        }
+
+
+
+
+
+        .tituloprincipal{
+
+            font-size: 1.3rem;
+
+
+
+
+
+        }
+
+
+
+
+
+        .subtitulo{
+
+            font-size: 0.95rem;
+
+         
+
+        }
+
+
+
+        .logoconteudo{
+
+         display: inline-flex;
+
+         display: flex;
+
+         flex-direction: row;        
+
+         justify-content: center;
+
+        }
+
+
+
+      
+
+
+
+       .subconteudo img {
+
+          width: 200px;         
+
+          height: 240px;
+
+          object-fit: cover;
+
+          padding: 5px 10px 5px 15px;  
+
+        }
+
+        
+
+        .subconteudo2 {
+
+            width: auto;         
+
+        }
+
+      
+
+
+
+        .textosocial{
+
+            display: inline-flex;
+
+            display: flex;
+
+            flex-direction: row;        
+
+            justify-content: center
+
+        }
+
+        
+
+        .redesociais img{
+
+        width: 100%;
+
+        height: 25px; 
+
+        display: flex;
+
+        flex-direction: column;   
+
+        justify-content: space-between;         
+
+        padding: 1px 1px 0px 0px;
+
+        margin: 10px 10px 10px 0px;
+
+        -webkit-border-radius: 10px;
+
+        -moz-border-radius: 15px;
+
+        border-radius: 20px;
+
+        }
+
+
+
+
+
+
+
+        .botoasubtitulo div {
+
+            flex-direction: column;            
+
+            padding: 10px 10px 10px 0px;
+
+            margin: 0px 1px 0px 0px;
+
+            justify-content: space-between;
+
+            width: 100%;
+
+        }
+
+        
+
+        .botoasubtitulo button{
+
+            border-radius:5px 5px 5px 5px;
+
+            background-color:rgb(35, 148, 185);     
+
+            color: rgb(255, 255, 255);
+
+            border-color: rgb(35, 148, 185);    
+
+            text-decoration: none;
+
+            font-size: 14px;
+
+            height: 40px;
+
+        }
+
+
+
+
+
+        /*inicio do bloco dos livros mobile*/
+
+        .blocodolivro01{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro01 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro01::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f01.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+        .blocodolivro02{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro02 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro02::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f02.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+
+        .blocodolivro03{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro03 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro03::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f03.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+
+        .blocodolivro04{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro04 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro04::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f04.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+
+
+        .blocodolivro05{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro05 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro05::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f05.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+
+        .blocodolivro06{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro06 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro06::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f006.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.3;
+        }        
+
+
+
+
+
+
+        .blocodolivro07{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro07 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro07::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f07.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+
+
+        .blocodolivro08{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro08 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro08::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f08.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+
+
+
+        .blocodolivro09{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro09 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro09::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f09.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+
+
+
+        .blocodolivro10{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro10 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro10::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f10.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }        
+
+
+
+
+
+        .blocodolivro11{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro11 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro11::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f11.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+
+
+        .blocodolivro12{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro12 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+        .blocodolivro12::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f12.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+
+        .blocodolivro13{
+            height: auto;
+            flex-direction: column;      
+            align-items: center;    
+            padding: 5px 10px; 
+        }
+
+        .blocodolivro13 p {
+            text-align: justify;
+            padding: 5px 15px;
+        }
+
+        .blocodolivro13::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background-image: url(../img/capas/fundo/f13.jpg); 
+            background-size: cover;
+            z-index: -1;
+            opacity: 0.4;
+        }
+
+
+
+          
+
+        #oculta a{
+
+            display: none;
+
+        }
+
+
+
+             
+
+
+
+        .logo3{   
+
+            display: flex;
+
+            height: 70px; 
+
+             padding-left: 20px;
+
+            padding-right: 20px;
+
+            justify-items: end;
+
+        }
+
+}
